@@ -26,6 +26,7 @@ class Language(Enum):
   PORTUGUESE = "pt"
   JAPANESE = "ja"
   KOREAN = "ko"
+  PERSIAN = "fa"
 
 _LANGUAGE_NAMES = {
   Language.SIMPLIFIED_CHINESE: "简体中文",
@@ -39,6 +40,7 @@ _LANGUAGE_NAMES = {
   Language.PORTUGUESE: "葡萄牙语",
   Language.JAPANESE: "日语",
   Language.KOREAN: "韩语",
+  anguage.PERSIAN: "波斯语",
 }
 
 def language_chinese_name(language: Language) -> str:
